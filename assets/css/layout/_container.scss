@@ -1,0 +1,28 @@
+.l-global-container {
+  // display: flex;
+  // flex-flow: column;
+  max-width: 1920px;
+  width: 100%;
+  margin: auto;
+}
+.l-container {
+  display: flex;
+}
+
+.l-container__left {
+  flex: 81;
+  // padding: 100px;
+  // height: 100px;
+  // background: yellow;
+  &__container {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+.l-container__right {
+  display: none;
+  flex: 19;
+  width: 100%;
+  background-color: #bf57b7;
+}

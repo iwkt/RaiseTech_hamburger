@@ -1,0 +1,28 @@
+.p-text-bar {
+  position: relative;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 41px;
+  color: #fff;
+  &::before {
+    content: "";
+    position: absolute;
+    bottom: -30%;
+    left: 0%;
+    width: 2rem;
+    height: 4px;
+    background-color: #fff;
+  }
+  &--long {
+    @extend .p-text-bar;
+    &::before {
+      content: "";
+      position: absolute;
+      bottom: -30%;
+      left: 0%;
+      width: 3rem;
+      height: 1px;
+      // background-color: #fff;
+    }
+  }
+}
