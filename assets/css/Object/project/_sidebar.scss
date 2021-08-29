@@ -1,4 +1,17 @@
 .p-sidebar {
-  background-color: #bf57b7;
+  background-color: #F2EDE9;
   width: 100%;
+  font-size: 2rem;
+  &__mainmenu-item {
+    margin-bottom: 2.3rem;
+  }
+  &__menu {
+    padding: 21.2rem 1.5rem 0 4.6rem;
+  }
+  &__submenu-items {
+    padding-left: 2rem;
+  }
+  &__submenu-item {
+    margin-bottom: 2.3rem;
+  }
 }

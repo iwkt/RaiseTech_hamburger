@@ -23,13 +23,13 @@
     <script src="https://unpkg.com/vue@next"></script>
   </head>
   <body>
-    <div class="l-global-container">
+    <div class="l-global-container js-menu">
       <div class="l-container">
         <div class="l-container__left">
           <div class="l-main__container">
             
             <header class="l-header">
-              <p class="p-menu" >Menu</p>
+              <p class="p-menu"><button id="js-menu_open">Menu</button></p>
               <h1 class="p-header__title ">Hamburger</h1>
               <div class="p-header__from">
                 <form action="#">
@@ -89,8 +89,6 @@
               <!-- c-section__container -->
 
 
-
-
               <section class="p-branch c-section__container">
                 <ul class="p-branch__wrapper">
                   <li class="p-branch__item u-overLayer__parent">
@@ -130,8 +128,6 @@
               </section>
 
 
-
-
               <section class="p-access">
                 <div class="p-access__cover u-overLayer__parent">    
                   <img class="p-access__map" src="./assets/images/map_mobile@2x.jpg" alt="">
@@ -151,13 +147,23 @@
           </div>
         </div>
         
-        <div class="l-container__right">
-          <div class="p-sidebar">
-            
-          </div>
-        </div>
-      </div>
-        <!-- l-container__right -->
+        <div id="MenuBtn" class="l-container__right p-sidebar js-menu">
+          <button class="c-close-btn">close</button>
+          <div id="foodMenu">
+            <ul class="p-sidebar__menu">
+              <li v-for="item in foodItems" :key="item.sn">
+                <h3 class="p-sidebar__mainmenu-item">{{ item.category }}</h3>
+                <ul class="p-sidebar__submenu-items">
+                  <li v-for="subitem in item.names" class="p-sidebar__submenu-item">
+                    <a href="#">{{ subitem }}</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--#foodMenu-->
+        </div><!-- l-container__right -->
+      </div><!-- l-container -->
+        
       <footer class="l-footer">
         <div class="p-footer__layer">
           <div class="p-footer__info-wrapper">
@@ -168,6 +174,7 @@
       </footer>
     </div>
     <!-- l-gloval-container -->
-
+    <script src="./assets/js/menu_open.js"></script>
+    <script src="./assets/js/food_menu.js"></script>
   </body>
 </html>

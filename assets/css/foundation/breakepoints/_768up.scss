@@ -1,3 +1,11 @@
+.l-container {
+  display: flex;
+}
+
+.l-container__right {
+  flex: 19;
+}
+
 .p-branch {
   padding: 4rem;
   &__wrapper {
