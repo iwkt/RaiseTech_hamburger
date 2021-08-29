@@ -19,6 +19,11 @@
     justify-content: center;
     align-items: center;
   }
+  &--column-sb {
+    @extend .u-center;
+    flex-flow: column;
+    justify-content: space-between;
+  }
 
 }
 
@@ -47,4 +52,16 @@
   width: 50%;
 }
 
+.u-overLayer {
+  &__parent {
+    position: relative;
+  }
+  &__child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
 

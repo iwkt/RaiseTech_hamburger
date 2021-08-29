@@ -1,0 +1,25 @@
+.p-search-field {
+  display: inline-block;
+  border: none;
+  width: 75%;
+}
+.p-search__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 46px;
+  padding: 0px 36px 0 24px;
+}
+
+.p-search__field-wrapper {
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 0.3em 1.2em;
+  border: 1px solid #707070;
+  font-size: 1.6rem;
+  width: 61.3333333333333% ;
+  min-width: 230px;
+  max-width: 396px;
+  margin-right: 12px;
+}

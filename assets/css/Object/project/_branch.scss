@@ -1,8 +1,68 @@
-.p-branch {
-  
 
-  width: 100%;
-  // height: 100px;
-  background: rgb(177, 228, 135);
-  // padding: 100px;
+.p-branch {
+
+  &__bg-img {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: calc(642 / 375 * 100vw);
+    // height: 642px;
+    max-height: 681px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    padding: 20px 3% 0;
+    &--take-out {
+      @extend .p-branch__bg-img;
+      background-image: url(../images/takeout.jpg);
+    }
+    &--take-in {
+      @extend .p-branch__bg-img;
+      background-image: url(../images/eatin@2x.jpg);
+    }
+  }
+  // &__boxs {
+  //   padding: 0 10px;
+  // }
+  &__textBox {
+    height: 162px;
+    color: #3C2A10;
+    padding: 0 11px;
+    margin-bottom: 10px;
+    background-color: rgba($color: #fff, $alpha: .8);
+  }
+  &__title {
+    padding: 27px 0 ;
+    font-size: 2.2rem;
+  }
+  // &__description {
+  //   @extend .p-textBox;
+  //   background-color: rgba($color: #fff, $alpha: .8);
+  // }
+  // &--bgc-white {
+  //   @extend .p-branch__textBox;
+  // }
+}
+
+
+
+.p-branch__item {
+  overflow: hidden;
+  height: calc(642 / 375 * 100vw);
+  max-height: 681px;
+  &:first-child {
+    margin-bottom: 20px;
+  }
+}
+
+.p-branch__layer {
+  padding: 20px 3% 0;
+  pointer-events: none;
+}
+
+.p-branch__img {
+  transition: all 0.3s;
+  &:hover {
+    transform: scale(1.2);
+  }
 }

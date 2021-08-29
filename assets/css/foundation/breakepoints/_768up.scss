@@ -1,0 +1,17 @@
+.p-branch {
+  padding: 4rem;
+  &__wrapper {
+    display: flex;
+  }
+  &__item {
+    flex: 1;
+    &:first-child {
+      margin-bottom: 0;
+      margin-right: 40px;
+    }
+  }
+}
+
+.p-search__wrapper {
+  justify-content: center;
+}

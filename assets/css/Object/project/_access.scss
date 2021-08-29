@@ -1,6 +1,46 @@
 .p-access {
-  width: 100%;
-  // height: 100px;
-  background: rgb(238, 200, 31);
-  padding: 100px;
+  &-text__inner {
+    // position: absolute;
+    z-index: 6;
+    top: 0px;
+    padding: 40px;
+    color: #fff;
+  }
+  &__map {
+    height: 100%;
+    opacity: 0.6;
+  }
+}
+
+.p-access__cover {
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    height: 60%;
+    width: 100%;
+    z-index: 4;
+  }
+}
+
+.p-access__description {
+  color: #fff;
+  line-height: 2rem;
+  font-size: 1.6rem;
+  line-height: calc(33 / 14);
+  font-family: "M+ 1p";
+  font-weight: 500;
 }
