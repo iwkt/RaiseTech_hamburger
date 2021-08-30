@@ -1,0 +1,13 @@
+$width-s: 20px;
+$h-nav: 70px;
+
+.l-container {
+  display: flex;
+}
+
+.l-container__right {
+  flex: 19;
+  display: flex;
+  position: static;
+  // height: 100%;
+}

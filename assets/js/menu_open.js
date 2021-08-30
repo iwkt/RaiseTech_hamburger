@@ -10,7 +10,6 @@ const isOpen = document.querySelectorAll('.js-menu');
 // };
 
   menuopen.addEventListener('click',function(){
-    // console.log('clicked')
     for(i of isOpen){
       i.classList.toggle('js-is_open');
     }

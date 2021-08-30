@@ -1,9 +1,22 @@
+$width: 60%;
 .l-container {
   display: flex;
 }
 
+// .l-container__right {
+//   flex: 19;
+// }
+
 .l-container__right {
-  flex: 19;
+  // $width: 60%;
+  left: 100%;
+  &.js-is_open {
+    left: $width;
+  }
+}
+
+.c-close-btn {
+  margin-right: $width;
 }
 
 .p-branch {
