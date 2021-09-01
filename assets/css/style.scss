@@ -18,7 +18,6 @@
 @import "Object/project/menu";
 @import "Object/project/title";
 @import "Object/project/form";
-@import "Object/project/main-visual";
 @import "Object/project/branch";
 @import "Object/project/sidebar";
 @import "Object/project/text-bar";
@@ -29,6 +28,9 @@
 
 @import "foundation/breakepoints/base";
 
+@media(min-width: 600px) {
+  @import "foundation/breakepoints/600up";
+}
 @media(min-width: 768px) {
   @import "foundation/breakepoints/768up";
 }
