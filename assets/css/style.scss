@@ -12,8 +12,9 @@
 @import "Object/component/textBox";
 
 @import "Object/project/access";
+@import "Object/project/copyright";
 @import "Object/project/p-button";
-@import "Object/project/header__from";
+@import "Object/project/header";
 @import "Object/project/mainvisual";
 @import "Object/project/menu";
 @import "Object/project/title";
@@ -37,6 +38,9 @@
 
 @media(min-width: 1024px) {
   @import "foundation/breakepoints/1024up";
+}
+@media(min-width: 1200px) {
+  @import "foundation/breakepoints/1200up";
 }
 
 @media(min-width: 1400px) {

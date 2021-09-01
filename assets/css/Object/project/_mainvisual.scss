@@ -1,20 +1,21 @@
 .p-mainvisual {
   &__wrapper {
   // position: relative;
-  }
-  &__layer {
-    position: relative;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 35px;
-    background: url(../images/mv_mobile608x800@2x.jpg);
-    background-position: 100% 100%;
-    background-size: cover;
-    height: 285px;
+}
+&__layer {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  // padding-left: 35px;
+  background: url(../images/mv_mobile608x800@2x.jpg);
+  background-position: 100% 100%;
+  background-size: cover;
+  // height: 285px;
+  padding: calc(120 / 834 *100vw) 3.5em;
   }
   &__title {
-    font-size: 3.6rem;
+    font-size: 3.6rem ;
     color: #fff;
   }
 }

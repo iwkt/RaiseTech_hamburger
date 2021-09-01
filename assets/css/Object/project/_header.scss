@@ -1,0 +1,16 @@
+.p-header__from {
+  // padding-top: 2rem;
+}
+
+.p-header {
+  &__title {
+    font-size: 4rem;
+    font-family: Roboto;
+    font-weight: 700;
+    color: #707070;
+    text-align: center;
+  }
+  &__menu-btn {
+    padding: 1.4rem 1.6rem;
+  }
+ }

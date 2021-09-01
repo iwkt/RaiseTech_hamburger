@@ -2,14 +2,14 @@
   position: relative;
   display: inline-block;
   font-family: Roboto;
-  font-size: 41px;
+  // font-size: 41px;
   color: #fff;
   &::before {
     content: "";
     position: absolute;
     bottom: -30%;
     left: 0%;
-    width: 2rem;
+    width: 0.9em;
     height: 4px;
     background-color: #fff;
   }
@@ -22,7 +22,7 @@
       position: absolute;
       bottom: -20px;
       left: 0%;
-      width: 7.5rem;
+      width: 2em;
       height: 2px;
       // background-color: #fff;
     }

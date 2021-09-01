@@ -1,9 +1,12 @@
 .p-branch {
   padding: 4rem;
-  &:first-child {
-    margin-right: 4rem;
+  &__item {
+    &:first-child {
+      margin-right: 4rem;
+    }
   }
   &__textBox {
     // height: 172px;
+    // background-color: red;
   }
 }
