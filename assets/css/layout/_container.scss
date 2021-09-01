@@ -1,6 +1,5 @@
 .l-global-container {
-  // display: flex;
-  // flex-flow: column;
+  min-width: 355px;
   max-width: 1920px;
   position: relative;
   width: 100%;
@@ -31,26 +30,18 @@
 }
 
 .l-container__right {
-  $width: 15%;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 100% + $width;
-  height: 100%;
-  width: 100%;
-  z-index: 100;
-  transition: left .3s;
-  &.js-is_open {
-    left: $width;
-  }
-  // &::after {
-  //   content: '';
-  //   position: absolute;
-  //   top: 0%;
-  //   left: -$width;
-  //   height: 100%;
-  //   width: $width;
-  //   background-color: rgba($color: #000000, $alpha: .6);
+  min-width: 267px;
+  // $width: 15%;
+  // display: block;
+  // position: absolute;
+  // top: 0;
+  // left: 100% + $width;
+  // height: 100%;
+  // width: 100%;
+  // z-index: 100;
+  // transition: left .3s;
+  // &.js-is_open {
+  //   left: $width;
   // }
 }
 

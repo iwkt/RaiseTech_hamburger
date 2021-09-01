@@ -1,38 +1,9 @@
-$width: 60%;
-.l-container {
-  display: flex;
-}
-
-// .l-container__right {
-//   flex: 19;
-// }
-
-.l-container__right {
-  // $width: 60%;
-  left: 100%;
-  &.js-is_open {
-    left: $width;
-  }
-}
-
-.c-close-btn {
-  margin-right: $width;
-}
-
 .p-branch {
   padding: 4rem;
-  &__wrapper {
-    display: flex;
+  &:first-child {
+    margin-right: 4rem;
   }
-  &__item {
-    flex: 1;
-    &:first-child {
-      margin-bottom: 0;
-      margin-right: 40px;
-    }
+  &__textBox {
+    // height: 172px;
   }
-}
-
-.p-search__wrapper {
-  justify-content: center;
 }

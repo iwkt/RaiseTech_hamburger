@@ -1,0 +1,76 @@
+$width: calc(100% - 367 / 834 * 100%);
+.l-container {
+  display: flex;
+}
+
+// .l-container__right {
+//   flex: 19;
+// }
+
+.l-container__right {
+  min-width: 267px;
+  // $width: 60%;
+  left: 100%;
+  &.js-is_open {
+    left: $width;
+  }
+}
+
+.c-close-btn {
+  margin-right: $width;
+}
+
+.p-access__cover {
+  position: relative;
+  &::after {
+    // content: "";
+    background-color: rgba($color: #000000, $alpha: 0.6);
+  }
+  &::before {
+    content: none;
+  }
+}
+
+.p-access {
+  &__description {
+    font-size: 1.6rem;
+  }
+  &__map {
+      // display: block;
+      background-image: url(../images/map@2x.jpg);
+      // background-size: contain;
+      // width: 100%;
+    }
+    &-text__inner {
+      min-height: 20rem;
+      background-image: none;
+      background-color: rgba($color: #000000, $alpha: 0.6);
+  }
+}
+
+.p-branch {
+  &__wrapper {
+    display: flex;
+  }
+  &__item {
+    flex: 1;
+    &:first-child {
+      margin-bottom: 0;
+      margin-right: 2rem;
+    }
+  }
+}
+
+.p-mainvisual {
+  &__layer {
+    background: url(../images/hamburger@2x.jpg);
+    background-position: 100% 100%;
+    background-size: cover;
+  }
+}
+
+
+
+.p-search__wrapper {
+  justify-content: center;
+}

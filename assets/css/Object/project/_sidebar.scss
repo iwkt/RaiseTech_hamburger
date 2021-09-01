@@ -1,7 +1,18 @@
 .p-sidebar {
-  background-color: #F2EDE9;
+  $width: 15%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100% + $width;
+  height: 100%;
   width: 100%;
+  z-index: 100;
+  transition: left .3s;
+  background-color: #F2EDE9;
   font-size: 2rem;
+  &.js-is_open {
+    left: $width;
+  }
   &__mainmenu-item {
     margin-bottom: 2.3rem;
   }

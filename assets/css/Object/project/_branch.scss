@@ -3,13 +3,13 @@
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    height: calc(642 / 375 * 100vw);
+    // height: calc(642 / 375 * 100vw);
     // height: 642px;
     max-height: 681px;
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    padding: 20px 3% 0;
+    padding: 2rem 3% 0;
     &--take-out {
       @extend .p-branch__bg-img;
       background-image: url(../images/takeout.jpg);
@@ -23,36 +23,30 @@
   //   padding: 0 10px;
   // }
   &__textBox {
-    height: 162px;
+    // height: 162px;
     color: #3c2a10;
-    padding: 0 11px;
-    margin-bottom: 10px;
+    padding: 2.7rem 1rem;
+    margin-bottom: 1rem;
     background-color: rgba($color: #fff, $alpha: 0.8);
   }
   &__title {
-    padding: 27px 0;
+    // padding: 27px 0;
+    margin-bottom: 2rem;
     font-size: 2.2rem;
   }
-  // &__description {
-  //   @extend .p-textBox;
-  //   background-color: rgba($color: #fff, $alpha: .8);
-  // }
-  // &--bgc-white {
-  //   @extend .p-branch__textBox;
-  // }
 }
 
 .p-branch__item {
   overflow: hidden;
-  height: calc(642 / 375 * 100vw);
-  max-height: 681px;
+  // height: calc(642 / 375 * 100vw);
+  // max-height: 681px;
   &:first-child {
-    margin-bottom: 20px;
+    margin-bottom: 2rem;
   }
 }
 
 .p-branch__layer {
-  padding: 20px 3% 0;
+  padding: 2rem 3% 0;
   pointer-events: none;
 }
 
