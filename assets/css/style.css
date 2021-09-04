@@ -690,7 +690,7 @@ body {
     height: 100%;
   }
   .p-header__title {
-    font-size: calc(64 / 1920 * 100vw);
+    font-size: clamp(10px, 3.33333vw, 8rem);
   }
   .p-mainvisual__layer {
     height: calc(512 / 1920 * 100vw);
