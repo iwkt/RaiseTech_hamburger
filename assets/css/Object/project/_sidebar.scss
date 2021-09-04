@@ -12,6 +12,8 @@
   font-size: 2rem;
   &.js-is_open {
     left: $width;
+    overflow-y: scroll;
+    height: 100vh;
   }
   &__btn-close {
     position: absolute;

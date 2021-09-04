@@ -23,11 +23,8 @@
 
 .l-container__left {
   flex: 81;
-  &__container {
-    display: flex;
-    flex-flow: column;
-  }
 }
+
 
 .l-container__right {
   min-width: 267px;
