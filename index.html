@@ -29,11 +29,11 @@
           <div class="l-main__container">
             
             <header class="l-header">
-              <p class="p-header__text-menu p-menu"><button id="js-menu_open" class="p-header__menu-btn">Menu</button></p>
+              <button id="js-menu_open" class="p-header__menu-btn  p-menu">Menu</button></p>
               <div class="p-header__wrapper">
-                <div class="p-header__form__wrapper">
+                <div class="p-header__outer">
                   <h1 class="p-header__title">Hamburger</h1>
-                  <div class="p-header__from">
+                  <div class="p-header__form">
                     <form action="#">
                       <label for="search">
                         <div class="p-search__wrapper">
@@ -41,7 +41,7 @@
                             <span class="c-icon-btn c-beforeicon-btn--download"></span><input class="p-search-field" type="search" name="search">
                         </div>
                       </label>
-                      <input class="p-search-btn" type="submit" name="submit" value="検索">
+                      <input class="c-search-btn" type="submit" name="submit" value="検索">
                     </form>
                   </div>
                 </div>
@@ -53,80 +53,53 @@
               <section class="p-mainvisual">
                 <div class="p-mainvisual__wrapper">
                   <div class="p-mainvisual__layer">
-                    <!-- <img class="p-mainvisual__img" src="./assets/images/mv_mobile_800x1128@2x.jpg" alt=""> -->
                     <h2 class="p-mainvisual__title c-title-text">Raise Burger</h2>
                   </div>
                 </div>
               </section>
 
-              
-              <!-- <section class="p-branch c-section__container">
-                <ul class="p-branch__wrapper">
-                  <li class="p-branch__bg-img--take-out u-mb--m">
-                    <h2 class="p-text-bar">Take Out</h2>
-                    <ul class="p-branch__boxs">
-                      <li class="p-branch__textBox">
-                        <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
-                        <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています</p>
-                      </li>
-                      <li class="p-branch__textBox">
-                        <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
-                        <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています</p>
-                      </li>
-                    </ul>
-                  </li>
-                  <li class="p-branch__bg-img--take-in">
-                    <h2 class="p-text-bar">Eat In</h2>
-                    <ul class="p-branch__boxs">
-                      <li class="p-branch__textBox">
-                        <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
-                        <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています</p>
-                      </li>
-                      <li class="p-branch__textBox">
-                        <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
-                        <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています</p>
-                      </li>
-                    </ul>
-                  </li>
-                </ul>
-              </section> -->
-              <!-- c-section__container -->
-
-
               <section class="p-branch c-section__container">
                 <ul class="p-branch__wrapper">
                   <li class="p-branch__item u-overLayer__parent">
-                    <img class="p-branch__img" src="./assets/images/takeout.jpg"/>
-                    <div class="p-branch__layer u-overLayer__child u-center--column-sb">
-                      <h2 class="p-branch__item__titile p-text-bar">Take Out</h2>
-                      <ul class="p-branch__boxs">
-                        <li class="p-branch__textBox">
-                          <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
-                          <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています。当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
-                        </li>
-                        <li class="p-branch__textBox">
-                          <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
-                          <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています。当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
-                        </li>
-                      </ul>
-                    </div>
+                    <a href="#">
+                      <div class="p-branch__for-hover">
+                        <img class="p-branch__img" src="./assets/images/takeout.jpg"/>
+                        <div class="p-branch__layer u-overLayer__child u-center--column-sb">
+                          <h2 class="p-branch__item__title p-text-bar">Take Out</h2>
+                          <ul class="p-branch__boxs">
+                            <li class="p-branch__textBox">
+                              <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
+                              <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています。</p>
+                            </li>
+                            <li class="p-branch__textBox">
+                              <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
+                              <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています。</p>
+                            </li>
+                          </ul>
+                        </div>                 
+                      </div>
+                    </a>
                   </li>
 
                   <li class="p-branch__item u-overLayer__parent">
-                    <img class="p-branch__img" src="./assets/images/eatin@2x.jpg"/>
-                    <div class="p-branch__layer u-overLayer__child u-center--column-sb">
-                      <h2 class="p-branch__item__titile p-text-bar">Eat In</h2>
-                      <ul class="p-branch__boxs">
-                        <li class="p-branch__textBox">
-                          <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
-                          <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています。当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
-                        </li>
-                        <li class="p-branch__textBox">
-                          <h3 class="c-textBox__title p-branch__title">Eat In</h3>
-                          <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています。当店のテイクアウトで利用できる商品を掲載しています当店のテイクアウトで利用できる商品を掲載しています</p>
-                        </li>
-                      </ul>
-                    </div>
+                    <a href="#">
+                      <div class="p-branch__for-hover">
+                        <img class="p-branch__img" src="./assets/images/eatin@2x.jpg"/>
+                        <div class="p-branch__layer u-overLayer__child u-center--column-sb">
+                          <h2 class="p-branch__item__title p-text-bar">Eat In</h2>
+                          <ul class="p-branch__boxs">
+                            <li class="p-branch__textBox">
+                              <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
+                              <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています。</p>
+                            </li>
+                            <li class="p-branch__textBox">
+                              <h3 class="c-textBox__title p-branch__title">Take OUT</h3>
+                              <p class="c-textBox__description">当店のテイクアウトで利用できる商品を掲載しています。</p>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </a>
                   </li>
                 </ul>
               </section>
@@ -138,7 +111,6 @@
                     <img class="p-access__map--pc" src="./assets/images/map@2x.jpg" alt="">
                     <img class="p-access__map--mobile" src="./assets/images/map_mobile@2x@2x.jpg" alt="">
                     <div class="p-access-text__inner u-overLayer__child">
-                    <!-- <div class="p-access-text__inner u-center--column"> -->
                       <h2 class="p-access__title u-mb--m"><span class="p-text-bar--long u-mb--m">アクセス</span></h2>
                       <p class="p-access__description">
                         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ex, molestias provident enim dignissimos unde minus ab suscipit minima at ea repudiandae atque ut earum tempore architecto odit quaerat ipsa.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ex, molestias provident enim dignissimos unde minus ab suscipit minima at ea repudiandae atque ut earum tempore architecto odit quaerat Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel ex, molestias provident enim dignissimos unde minus ab suscipit.
@@ -169,8 +141,8 @@
           </div>
         </div>
         
-        <div id="MenuBtn" class="l-container__right p-sidebar js-menu">
-          <button class="c-close-btn">close</button>
+        <div class="l-container__right p-sidebar js-menu">
+          <button id="MenuBtn" class="p-sidebar__btn-close"><span class="c-close-btn"></span></button>
           <div id="foodMenu">
             <ul class="p-sidebar__menu">
               <li v-for="item in foodItems" :key="item.sn">
