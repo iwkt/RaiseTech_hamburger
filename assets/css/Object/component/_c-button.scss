@@ -66,3 +66,25 @@
   border: 1px solid #707070;
   color: #707070;
 }
+
+.c-round-btn {
+  display: inline-block;
+  padding: 10px 42px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  // width: 163px;
+  max-width: 100%;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: bold;
+  background-color: #fff;
+  color: #707070;
+  cursor: pointer;
+  font-family: "M+ 1m";
+  &:hover {
+    background-color: #707070;
+    color: #fff;
+    border: 2px solid currentColor;
+
+  }
+}

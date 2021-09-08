@@ -1,0 +1,44 @@
+.p-page-nation {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  &__text {
+    font-size: 1.6rem;
+    color: #707070 !important;
+    &--pre {
+      @extend .p-page-nation__text;
+    }
+    &--next {
+      @extend .p-page-nation__text;
+    }
+  }
+}
+
+.p-page-nation__text {
+  &--pre {
+    position: relative;
+    padding-left: 2rem;
+    &::before {
+      content: "\f100";
+      font-family: "Font Awesome 5 Free";
+      position: absolute;
+      top: -1px;
+      left: 0px;
+      font-weight: 900;
+      margin-right: 4px;
+    }
+  }
+  &--next {
+    position: relative;
+    padding-right: 2rem;
+    &::before {
+      content: "\f101";
+      font-family: "Font Awesome 5 Free";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      font-weight: 900;
+      margin-left: 4px;
+    }
+  }
+}
