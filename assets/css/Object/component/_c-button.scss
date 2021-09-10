@@ -81,6 +81,11 @@
   color: #707070;
   cursor: pointer;
   font-family: "M+ 1m";
+  
+  @include mq (lg){
+    padding: 27px 106px;
+    border-radius: 50px;
+  }
   &:hover {
     background-color: #707070;
     color: #fff;
