@@ -519,6 +519,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 600px;
   }
   .p-page-nation__link {
     display: -webkit-box;

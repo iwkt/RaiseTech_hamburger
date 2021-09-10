@@ -54,10 +54,12 @@
   .p-page-nation__wapper--pc {
     display: block;
     width: 100%;
+    
   }
   .p-page-nation__items {
     display: flex;
     justify-content: space-between;
+    width: 600px;
   }
   .p-page-nation__link {
     display: flex;
